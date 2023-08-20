@@ -1,34 +1,15 @@
-import styled, { createGlobalStyle } from "styled-components";
+import React, { Component } from "react";
+import "./App.css";
+import Timeline from "./Timeline";
 
-const App = () => {
-  return (
-    <>
-      <GlobalStyle />
-      <Wrapper>
-        <Square />
-      </Wrapper>
-    </>
-  );
-};
-
-const GlobalStyle = createGlobalStyle`
-  * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+class App extends Component {
+  render() {
+    return (
+      <div className="App">
+        <Timeline />
+      </div>
+    );
   }
-`;
-
-const Wrapper = styled.div`
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-`;
-
-const Square = styled.div`
-  background-color: #929bb8;
-  width: 516px;
-  height: 100vh;
-`;
+}
 
 export default App;
