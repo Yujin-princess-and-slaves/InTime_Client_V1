@@ -11,6 +11,15 @@ class Page extends Component {
           <div className="a">우리가 쓴 일기를 시간 순으로 볼 수 있어요</div>
         </div>
         <div className="square" />
+        <div className="square2" />
+        <div className="text">
+          일기 내용 내용 내용 내용 내용 내용 내용 내용 일기 내용 내용 내용 내용
+          내용 내용 내용 내용 일기 내용 내용 내용 내용 내용 내용 내용 내용 일기
+          내용 내용 내용 내용 내용 내용 내용 내용 일기 내용 내용 내용 내용 내용
+          내용 내용 내용 일기 내용 내용 내용 내용 내용 내용 내용 내용 일기 내용
+          내용 내용 내용 내용 내용 내용 내용 일기 내용 내용 내용 내용 내용 일기
+          내용 내용 내용 내용 내용
+        </div>
       </div>
     );
   }

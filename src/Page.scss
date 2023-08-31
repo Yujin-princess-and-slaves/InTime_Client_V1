@@ -1,33 +1,55 @@
 .Clock {
-  margin-left: 600px;
-  margin-top: 150px;
+  position: relative;
+  top: 120px;
+  left: 600px;
 }
 .font {
-  padding-left: 650px;
+  position: relative;
+  left: 640px;
+  top: 86px;
+  color: #000;
+  font-family: Pretendard;
+  font-style: normal;
+  line-height: normal;
 }
 .Name {
-  color: #000;
-  font-family: Pretendard;
   font-size: 25px;
-  font-style: normal;
   font-weight: 600;
-  line-height: normal;
 }
 .a {
-  margin-top: 10px;
-  color: #000;
-  font-family: Pretendard;
+  position: relative;
+  top: 12px;
   font-size: 15px;
-  font-style: normal;
   font-weight: 400;
-  line-height: normal;
 }
 .square {
-  margin-left: 600px;
-  margin-top: 50px;
+  position: relative;
+  left: 600px;
+  top: 200px;
   width: 550px;
-  height: 350px;
+  height: 380px;
   border-radius: 60px;
   border: 1px solid #000;
   background: #fff;
+}
+.square2 {
+  position: relative;
+  left: 655px;
+  top: 35px;
+  width: 450px;
+  height: 140px;
+  background: #c4c4c4;
+}
+.text {
+  position: relative;
+  left: 660px;
+  bottom: 220px;
+  width: 450px;
+  height: 98px;
+  color: #000;
+  font-family: Pretendard;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
 }
